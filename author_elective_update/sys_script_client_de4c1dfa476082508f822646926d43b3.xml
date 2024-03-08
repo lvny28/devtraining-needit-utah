@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Alert on submit</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AlertSubmit</name>
+        <order/>
+        <script/>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 20:47:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>de4c1dfa476082508f822646926d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AlertSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_de4c1dfa476082508f822646926d43b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 20:47:56</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c2db1f55db8b20d0d5c911f8489619d1</instance_id>
+        <instance_name>dev107894</instance_name>
+        <name>sys_script_client_de4c1dfa476082508f822646926d43b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client"><sys_script_client action="INSERT_OR_UPDATE"><active>true</active><applies_extended>false</applies_extended><condition/><description>Alert on submit</description><field/><global>true</global><isolate_script>true</isolate_script><messages/><name>AlertSubmit</name><order/><script/><sys_class_name>sys_script_client</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-27 20:47:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>de4c1dfa476082508f822646926d43b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AlertSubmit</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_script_client_de4c1dfa476082508f822646926d43b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-27 20:47:56</sys_updated_on><table>incident</table><type>onSubmit</type><ui_type>0</ui_type><view/></sys_script_client></record_update>]]></payload>
+        <payload_hash>-872656004</payload_hash>
+        <record_name>AlertSubmit</record_name>
+        <reverted_from/>
+        <source>873e5dd3479c06108f822646926d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 20:47:56</sys_created_on>
+        <sys_id>b0dc11be476082508f822646926d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dec52f5340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 20:47:56</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f4dc11beb2608250bba328977d4704e2</update_guid>
+        <update_guid_history>f4dc11beb2608250bba328977d4704e2:-872656004</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 20:48:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>278ddefdd8f74378880d549fd3700301</sys_id>
+        <sys_metadata>de4c1dfa476082508f822646926d43b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AlertSubmit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">8ef778397db1311076daf29f52070d0e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_de4c1dfa476082508f822646926d43b3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_de4c1dfa476082508f822646926d43b3">b0dc11be476082508f822646926d43e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 20:48:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
